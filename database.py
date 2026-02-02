@@ -4,7 +4,7 @@ from tkinter import messagebox
 def connect_db():
     global mycursor, conn
     try:
-        conn = pymysql.connect(host='localhost', user='root',password='thekavyaasharma')
+        conn = pymysql.connect(host='localhost', user='root',password='enter your password ')
         mycursor = conn.cursor()
         
     except:
