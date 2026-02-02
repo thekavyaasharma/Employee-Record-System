@@ -166,15 +166,3 @@ This project is developed for educational and hackathon purposes.
 ⭐ **If you find this project useful, feel free to star the repository!**
 
 ---
-
-## ✅ What You Should Do Next
-
-1. Create a file named **`README.md`** in your project root
-2. Paste the above content
-3. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Add project README"
-git push origin main
-```
