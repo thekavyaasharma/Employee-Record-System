@@ -2,7 +2,7 @@
 Employee Record System
 
 
-Theme :
+
 Project ID :  SIC-25-26-Team144
 
 Project Overview :
