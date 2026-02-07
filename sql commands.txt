@@ -1,0 +1,25 @@
+use employee_db;
+
+INSERT INTO data (ID, Name, Contact, Gender, Role, Salary) VALUES
+('EMP-101', 'Aman Verma', '9876543210', 'Male', 'Web Developer', 45000),
+('EMP-102', 'Neha Sharma', '9876543211', 'Female', 'Data Scientist', 75000),
+('EMP-103', 'Rohit Singh', '9876543212', 'Male', 'Cloud Architect', 90000),
+('EMP-104', 'Pooja Gupta', '9876543213', 'Female', 'HR Manager', 40000),
+('EMP-105', 'Karan Mehta', '9876543214', 'Male', 'DevOps Engineer', 85000),
+('EMP-106', 'Simran Kaur', '9876543215', 'Female', 'UX/UI Designer', 50000),
+('EMP-107', 'Arjun Patel', '9876543216', 'Male', 'Network Engineer', 60000),
+('EMP-108', 'Anjali Joshi', '9876543217', 'Female', 'Business Analyst', 65000),
+('EMP-109', 'Vikas Yadav', '9876543218', 'Male', 'IT Consultant', 70000),
+('EMP-110', 'Ritika Jain', '9876543219', 'Female', 'Technical Writer', 42000),
+
+('EMP-111', 'Sahil Khan', '9876543220', 'Male', 'Web Developer', 48000),
+('EMP-112', 'Priya Malhotra', '9876543221', 'Female', 'Data Scientist', 80000),
+('EMP-113', 'Nitin Sharma', '9876543222', 'Male', 'Cloud Architect', 95000),
+('EMP-114', 'Kavita Singh', '9876543223', 'Female', 'HR Manager', 38000),
+('EMP-115', 'Aditya Raj', '9876543224', 'Male', 'DevOps Engineer', 88000),
+('EMP-116', 'Mehak Arora', '9876543225', 'Female', 'UX/UI Designer', 52000),
+('EMP-117', 'Rahul Khanna', '9876543226', 'Male', 'Network Engineer', 62000),
+('EMP-118', 'Sneha Kapoor', '9876543227', 'Female', 'Business Analyst', 68000),
+('EMP-119', 'Deepak Chauhan', '9876543228', 'Male', 'IT Consultant', 72000),
+('EMP-120', 'Tanya Bansal', '9876543229', 'Female', 'Technical Writer', 46000);
+

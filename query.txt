@@ -1,0 +1,11 @@
+AVG SALARY PER ROLE :
+SELECT Role, AVG(Salary) FROM data GROUP BY Role;
+
+
+Gender-Based Salary Analysis : 
+SELECT
+Gender,
+COUNT(*) AS Employees,
+ROUND(AVG(CAST(Salary AS UNSIGNED)), 2) AS Avg_Salary
+FROM data
+GROUP BY Gender;

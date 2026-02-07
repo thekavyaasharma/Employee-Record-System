@@ -1,7 +1,7 @@
 from customtkinter import *
 from tkinter import ttk, messagebox
 import database
-
+import run_sql
 
 set_appearance_mode("light")      
 
@@ -171,6 +171,14 @@ CTkLabel(leftFrame, text='Salary', font=('arial', 18, 'bold'), text_color='white
 salaryEntry = CTkEntry(leftFrame, font=('arial', 15))
 salaryEntry.grid(row=5, column=1, sticky="ew")
 
+CTkButton(
+    leftFrame,
+    text="SQL Operations",
+    width=180,
+    command=lambda: run_sql.open_salary_window(treeview_data)
+).grid(row=6, column=1, pady=15, sticky="w")
+
+
 # ===================== RIGHT FRAME =====================
 rightFrame = CTkFrame(window)
 rightFrame.grid(row=0, column=1, sticky="nsew", padx=10, pady=10)
@@ -212,7 +220,7 @@ for col, w in zip(
 
 style = ttk.Style()
 style.configure('Treeview.Heading', font=('arial', 18, 'bold'), rowheight=40)
-style.configure('Treeview',ont=('arial', 15),rowheight = 30, background ='#161C30', foreground = 'white')
+style.configure('Treeview',font=('arial', 15),rowheight = 30, background ='#161C30', foreground = 'white')
 
 scrollbar = ttk.Scrollbar(rightFrame, orient=VERTICAL, command=tree.yview)
 scrollbar.grid(row=1, column=4, sticky='ns')
