@@ -23,7 +23,7 @@ root.geometry("930x478")
 root.state("zoomed")   # start maximized (Windows)
 
 # ---------------- BACKGROUND IMAGE ----------------
-original_image = Image.open("cover.jpg")
+original_image = Image.open("cover1.jpg")
 
 bg_image = CTkImage(original_image, size=(930, 478))
 
