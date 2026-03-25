@@ -4,7 +4,7 @@ A Python-based desktop application designed to efficiently manage employee recor
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Many small and medium-sized organizations still rely on manual registers or scattered spreadsheets to manage employee data. This often leads to data inconsistency, human errors, and poor accessibility. The **Employee Record Management System (ERMS)** provides a centralized and structured solution that allows administrators to manage employee records digitally with ease.
 
